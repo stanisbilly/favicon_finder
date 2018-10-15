@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 *Note: If you have different python versions (eg. `python` -> python2.7, `python3` -> python3.6) running, install with the following command:*
 ```
-python -m pop install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### **Running the app**
