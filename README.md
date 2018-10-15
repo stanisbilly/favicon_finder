@@ -24,6 +24,7 @@ Navigate to the top-level directory and run:
 python appserver.py
 ```
 *Note: The app assumes that MongoDB is running with default configuration (localhost:27017)*
+
 ---
 
 ### **Assumptions**
