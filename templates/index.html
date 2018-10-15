@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Favicon Finder</title>
+</head>
+
+<body style="text-align: center; font-family: Arial, Helvetica, sans-serif">
+
+    <h1>Favicon Finder</h1>
+
+    <form method="POST">
+        <input type="text" size="50" name="url" value="{{obj.input_value}}" autofocus>
+        <input type="submit" value="Find Favicon">
+    </form>
+
+    <h4>{{obj.error_msg}}</h4>
+
+    <img src="{{obj.favicon_url}}" />
+
+
+</body>
+
+</html>
